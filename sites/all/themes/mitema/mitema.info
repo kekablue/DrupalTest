@@ -1,0 +1,25 @@
+
+name = Mi Tema
+description = Tema Custom para Test.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colors.css
+stylesheets[print][] = css/print.css
+
+regions[header] = Header
+regions[content] = Content
+regions[navigation] = Navigation
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2016-02-24
+version = "7.43"
+project = "drupal"
+datestamp = "1456343506"
+
